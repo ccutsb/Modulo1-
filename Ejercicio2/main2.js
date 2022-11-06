@@ -11,15 +11,32 @@
  Crea una variable llamada peorLenguaje y asígnale el último elemento del array lenguajesFavoritos. 
 */
 
-const nombre = "Cristian"
-let edad = "26"
+const nombre = 'Cristian' ;
 
-let mayorDeEdad = true 
-if (edad <= 18) {
-    console.log("Eres mayor de edad")
-} else {
-    console.log("No eres mayor de edad")
-}
+let edad = 26 ;
+
+var mayorDeEdad = true;
+
+const direccion = {
+    calle: 'La plaza',
+    numero: 5698,
+    comuna: 'Talagante',
+    region: 'Santiago',
+    Pais: 'Chile'
+};
+
+const coloresFavoritos = ['verde', 'morado', 'rojo', 'rosado', 'negro'] ;
+
+const lenguajesFavoritos = ['JavaScript', 'Python', 'Kotlin'] ;
+
+const mejorLenguaje = lenguajesFavoritos[0] 
+    console.log (mejorLenguaje);
+
+const peorLenguaje = lenguajesFavoritos[2]
+    console.log (peorLenguaje) ;
+
+
+
 
 
 
