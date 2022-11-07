@@ -15,7 +15,8 @@ const nombre = 'Cristian' ;
 
 let edad = 26 ;
 
-var mayorDeEdad = true;
+var mayorDeEdad = true > 18
+
 
 const direccion = {
     calle: 'La plaza',
